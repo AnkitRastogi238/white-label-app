@@ -1,0 +1,35 @@
+.custom-pagination {
+    .swiper-pagination-bullets {
+        width: auto;
+        padding-right: 0.25rem;
+
+        .swiper-pagination-bullet {
+            background-color: var(--ng-white);
+            opacity: 1;
+
+            &.swiper-pagination-bullet-active {
+                width: 1.875rem
+                    /* 30px */
+                ;
+                border-radius: 0.625rem;
+            }
+        }
+
+        &.black-dots {
+            .swiper-pagination-bullet {
+                background-color: var(--ng-black);
+            }
+        }
+
+        &.gray-dots {
+            .swiper-pagination-bullet {
+                background-color: var(--ng-gray-350);
+
+                &.swiper-pagination-bullet-active {
+                    width: 0.5rem;
+                    background-color: var(--ng-gray-800);
+                }
+            }
+        }
+    }
+}

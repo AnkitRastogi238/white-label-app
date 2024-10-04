@@ -1,0 +1,54 @@
+// Tailwind directives
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --ng-blue-300: #005b8c;
+  --ng-blue-400: #0c5b8c;
+  --ng-white: #fff;
+  --ng-black: #000;
+  --ng-gray-200: #d1d1d1;
+  --ng-white-300: #f8f8f8;
+  --ng-gray-325: #d6d6d6;
+  --ng-gray-350: #d9d9d9;
+  --ng-gray-400: #ebebeb;
+  --ng-gray-425: #9c9c9c;
+  --ng-gray-800: #4e5258;
+  --ng-gray-950: #353535;
+  --ng-gray-675: #8e979f;
+  --ng-gray-900: #80808075;
+  --ng-yellow: #ffd100;
+  --ng-red: #ff0000;
+  --ng-poppins: [ 'Poppins', 'sans-serif'];
+}
+
+@layer components {
+  .card-data {
+    @apply absolute top-auto right-auto bottom-ng30 left-ng20 [transition:inset_.3s_.3s] z-ng1;
+  }
+
+  .swiper-arrow {
+    @apply z-10 p-2 rounded-full absolute top-1/2 -translate-y-1/2 md:-translate-y-1/2;
+  }
+
+  .common-padding {
+    @apply px-6 py-ng48 lg:py-ng60 md:px-12 lg:px-14;
+  }
+
+  .facilities-grid-card {
+    @apply content-ngempty h-full absolute w-full hover:top-0 hover:bottom-0 hover:left-0 hover:right-0 hover:h-full hover:w-full hover:rounded-ng4 hover:[transition:0.5s_ease];
+  }
+
+  .content-description {
+    ul {
+      list-style-type: disc;
+      padding-left: 2rem;
+    }
+
+    ol {
+      list-style-type: decimal;
+      padding-left: 2rem;
+    }
+  }
+}
