@@ -3,10 +3,7 @@ import { json } from '@sveltejs/kit';
 
 import { logger } from '@white-label/ui/services';
 
-import {
-    NEWS_LISTING_API_KEY
-} from '$env/static/private';
-import { NEWS_API_BASE_URL } from '$lib/config/constant';
+import { NEWS_API_BASE_URL, NEWS_LISTING_API_KEY } from '$lib/config/constant';
 
 export const GET: RequestHandler = async ({ fetch }) => {
 
