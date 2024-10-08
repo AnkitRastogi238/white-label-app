@@ -1,5 +1,7 @@
 <script lang="ts">
 	// internal dependencies - child component
+	import { logger } from '@white-label/ui/services';
+	
 	import AccordionItem from './AccordionItem.svelte';
 	import GridCardAccordion from './GridCardAccordion.svelte';
 	import type { accordionItem } from '$lib/common/types';
@@ -36,6 +38,7 @@
 	 */
 	const handleClick = (index: number) => {
 		expandedAccordion = expandedAccordion === index ? null : index;
+		logger.log("clicked")
 	};
 </script>
 

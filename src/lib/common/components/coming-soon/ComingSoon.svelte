@@ -1,7 +1,6 @@
 <script lang="ts">
     // internal dependencies
     import GenericButton from '../button/GenericButton.svelte';
-
     import GenericImage from '$lib/common/components/image/GenericImage.svelte';
     import type { ILink, ImageData } from '$lib/common/types';
 	import { PageNotFoundImage, ServiceBgImage } from '$src/lib/assets/images';

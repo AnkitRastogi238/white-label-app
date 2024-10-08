@@ -1,0 +1,177 @@
+
+> web@0.0.1 build C:\WhiteLabelTask\white-label\apps\web
+> vite build
+
+[36mvite v5.1.4 [32mbuilding SSR bundle for production...[36m[39m
+transforming...
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:50:15 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/video/video.svelte:67:2 A11y: <video> elements must have a <track kind="captions">
+65:   })}
+66: >
+67:   <video
+      ^
+68:     style={stringifyStyles({
+69:       width: "100%",
+3:50:17 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/components/blocks/blocks-wrapper.svelte:50:0 A11y: <svelte:element> with click, mouseenter, keypress handlers must have an ARIA role
+48: </script>
+49: 
+50: <svelte:element
+    ^
+51:   this={BlocksWrapper}
+52:   style={stringifyStyles(styleProp)}
+3:50:18 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/components/content/components/enable-editor.svelte:329:2 A11y: <svelte:element> with click handler must have an ARIA role
+327: 
+328: {#if $builderContextSignal.content}
+329:   <svelte:element
+       ^
+330:     this={ContentWrapper}
+331:     {...{}}
+3:50:18 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/accordion/accordion.svelte:117:4 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.
+115: <div style={stringifyStyles(accordionStyles())} class="builder-accordion">
+116:   {#each items as item, index}
+117:     <div
+         ^
+118:       style={stringifyStyles({
+119:         ...accordionTitleStyles(),
+3:50:18 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/accordion/accordion.svelte:117:4 A11y: <div> with click handler must have an ARIA role
+115: <div style={stringifyStyles(accordionStyles())} class="builder-accordion">
+116:   {#each items as item, index}
+117:     <div
+         ^
+118:       style={stringifyStyles({
+119:         ...accordionTitleStyles(),
+3:50:19 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/tabs/tabs.svelte:46:6 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.
+44:   >
+45:     {#each tabs as tab, index (index)}
+46:       <span
+          ^
+47:         style={stringifyStyles({
+48:           ...(activeTab === index ? activeTabStyle : {}),
+3:50:19 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/tabs/tabs.svelte:46:6 A11y: <span> with click handler must have an ARIA role
+44:   >
+45:     {#each tabs as tab, index (index)}
+46:       <span
+          ^
+47:         style={stringifyStyles({
+48:           ...(activeTab === index ? activeTabStyle : {}),
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+[32m✓[39m 307 modules transformed.
+rendering chunks...
+[36mvite v5.1.4 [32mbuilding for production...[36m[39m
+transforming...
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:50:23 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/video/video.svelte:67:2 A11y: <video> elements must have a <track kind="captions">
+65:   })}
+66: >
+67:   <video
+      ^
+68:     style={stringifyStyles({
+69:       width: "100%",
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/components/blocks/blocks-wrapper.svelte:50:0 A11y: <svelte:element> with click, mouseenter, keypress handlers must have an ARIA role
+48: </script>
+49: 
+50: <svelte:element
+    ^
+51:   this={BlocksWrapper}
+52:   style={stringifyStyles(styleProp)}
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/components/content/components/enable-editor.svelte:329:2 A11y: <svelte:element> with click handler must have an ARIA role
+327: 
+328: {#if $builderContextSignal.content}
+329:   <svelte:element
+       ^
+330:     this={ContentWrapper}
+331:     {...{}}
+DEPRECATION WARNING: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/accordion/accordion.svelte:117:4 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.
+115: <div style={stringifyStyles(accordionStyles())} class="builder-accordion">
+116:   {#each items as item, index}
+117:     <div
+         ^
+118:       style={stringifyStyles({
+119:         ...accordionTitleStyles(),
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/accordion/accordion.svelte:117:4 A11y: <div> with click handler must have an ARIA role
+115: <div style={stringifyStyles(accordionStyles())} class="builder-accordion">
+116:   {#each items as item, index}
+117:     <div
+         ^
+118:       style={stringifyStyles({
+119:         ...accordionTitleStyles(),
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/tabs/tabs.svelte:46:6 A11y: visible, non-interactive elements with an on:click event must be accompanied by a keyboard event handler. Consider whether an interactive element such as <button type="button"> or <a> might be more appropriate. See https://svelte.dev/docs/accessibility-warnings#a11y-click-events-have-key-events for more details.
+44:   >
+45:     {#each tabs as tab, index (index)}
+46:       <span
+          ^
+47:         style={stringifyStyles({
+48:           ...(activeTab === index ? activeTabStyle : {}),
+3:50:24 PM [vite-plugin-svelte] C:/WhiteLabelTask/white-label/node_modules/.pnpm/@builder.io+sdk-svelte@2.0.15_svelte@4.2.12/node_modules/@builder.io/sdk-svelte/lib/browser/blocks/tabs/tabs.svelte:46:6 A11y: <span> with click handler must have an ARIA role
+44:   >
+45:     {#each tabs as tab, index (index)}
+46:       <span
+          ^
+47:         style={stringifyStyles({
+48:           ...(activeTab === index ? activeTabStyle : {}),
+[32m✓[39m 312 modules transformed.
+rendering chunks...
+computing gzip size...
+[2m.svelte-kit/output/client/[22m[32m_app/version.json                                    [39m[1m[2m  0.03 kB[22m[1m[22m[2m │ gzip:  0.05 kB[22m
+[2m.svelte-kit/output/client/[22m[32m.vite/manifest.json                                  [39m[1m[2m  3.16 kB[22m[1m[22m[2m │ gzip:  0.58 kB[22m
+[2m.svelte-kit/output/client/[22m[32m_app/immutable/assets/service-bg-image._yjz_Ikj.png  [39m[1m[2m306.89 kB[22m[1m[22m
+[2m.svelte-kit/output/client/[22m[35m_app/immutable/assets/0.Ik_RaWmY.css                 [39m[1m[2m 39.97 kB[22m[1m[22m[2m │ gzip:  9.76 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/start.wYcDLy3j.js               [39m[1m[2m  0.07 kB[22m[1m[22m[2m │ gzip:  0.08 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/stores.q_P5pKTs.js             [39m[1m[2m  0.23 kB[22m[1m[22m[2m │ gzip:  0.17 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/3.2r1XBIrI.js                   [39m[1m[2m  0.60 kB[22m[1m[22m[2m │ gzip:  0.39 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/2.2r1XBIrI.js                   [39m[1m[2m  0.60 kB[22m[1m[22m[2m │ gzip:  0.39 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/1.A_bLZpo5.js                   [39m[1m[2m  0.84 kB[22m[1m[22m[2m │ gzip:  0.52 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/scheduler.nC5FwXLK.js          [39m[1m[2m  3.04 kB[22m[1m[22m[2m │ gzip:  1.39 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/entry/app.Um3Ket00.js                 [39m[1m[2m  6.17 kB[22m[1m[22m[2m │ gzip:  2.47 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/index.lGNEkInA.js              [39m[1m[2m 11.74 kB[22m[1m[22m[2m │ gzip:  4.98 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/chunks/entry.ajntBKSO.js              [39m[1m[2m 26.91 kB[22m[1m[22m[2m │ gzip: 10.68 kB[22m
+[2m.svelte-kit/output/client/[22m[36m_app/immutable/nodes/0.bUdP2lt7.js                   [39m[1m[2m309.03 kB[22m[1m[22m[2m │ gzip: 94.70 kB[22m
+[32m✓ built in 4.44s[39m
+[2m.svelte-kit/output/server/[22m[32m.vite/manifest.json                                  [39m[1m[2m  2.98 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[32m_app/immutable/assets/service-bg-image._yjz_Ikj.png  [39m[1m[2m306.89 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[35m_app/immutable/assets/constant.fymrZ8Sn.css          [39m[1m[2m  0.46 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[35m_app/immutable/assets/_layout.SfuYGit_.css           [39m[1m[2m 39.47 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mentries/pages/_page.svelte.js                        [39m[1m[2m  0.23 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mentries/pages/_...catchall_/_page.svelte.js          [39m[1m[2m  0.23 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36minternal.js                                          [39m[1m[2m  0.31 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mentries/fallbacks/error.svelte.js                    [39m[1m[2m  0.47 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mentries/pages/_layout.server.ts.js                   [39m[1m[2m  0.65 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/stores.js                                     [39m[1m[2m  0.78 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/index.js                                      [39m[1m[2m  0.83 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/index2.js                                     [39m[1m[2m  1.33 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/exports.js                                    [39m[1m[2m  5.96 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/internal.js                                   [39m[1m[2m  6.39 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/ssr.js                                        [39m[1m[2m  7.70 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mchunks/constant.js                                   [39m[1m[2m 15.24 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mindex.js                                             [39m[1m[2m112.99 kB[22m[1m[22m
+[2m.svelte-kit/output/server/[22m[36mentries/pages/_layout.svelte.js                      [39m[1m[2m209.95 kB[22m[1m[22m
+[32m✓ built in 18.47s[39m
+
+Run npm run preview to preview your production build locally.
+
+> Using @sveltejs/adapter-vercel
+[31merror during build:
+Error: Unsupported Node.js version: v22.2.0. Please use Node 18 or Node 20 to build your project, or explicitly specify a runtime in your adapter configuration.
+    at get_default_runtime (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/@sveltejs+adapter-vercel@5.4.4_@sveltejs+kit@2.5.2/node_modules/@sveltejs/adapter-vercel/index.js:18:8)
+    at adapt (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/@sveltejs+adapter-vercel@5.4.4_@sveltejs+kit@2.5.2/node_modules/@sveltejs/adapter-vercel/index.js:219:67)
+    at adapt (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.12_vite@5.1.4/node_modules/@sveltejs/kit/src/core/adapt/index.js:38:8)
+    at finalise (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.12_vite@5.1.4/node_modules/@sveltejs/kit/src/exports/vite/index.js:904:13)
+    at async Object.handler (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/@sveltejs+kit@2.5.2_@sveltejs+vite-plugin-svelte@3.0.2_svelte@4.2.12_vite@5.1.4/node_modules/@sveltejs/kit/src/exports/vite/index.js:934:5)
+    at async PluginDriver.hookParallel (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/rollup@4.5.2/node_modules/rollup/dist/es/shared/node-entry.js:18530:17)
+    at async Object.close (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/rollup@4.5.2/node_modules/rollup/dist/es/shared/node-entry.js:19460:13)
+    at async build (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/vite@5.1.4_sass@1.79.4/node_modules/vite/dist/node/chunks/dep-jDlpJiMN.js:66950:13)
+    at async CAC.<anonymous> (file:///C:/WhiteLabelTask/white-label/node_modules/.pnpm/vite@5.1.4_sass@1.79.4/node_modules/vite/dist/node/cli.js:842:9)[39m
+ ELIFECYCLE  Command failed with exit code 1.

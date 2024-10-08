@@ -1,0 +1,1 @@
+export const NEWS_LISTING_ENDPOINT='/api/blogs'

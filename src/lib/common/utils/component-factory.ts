@@ -1,10 +1,15 @@
 // external dependencies
 import type { RegisteredComponent } from '@builder.io/sdk-svelte';
-import { ComingSoon, ComingSoonInfo } from '$lib/common/components/coming-soon';
-import { Tabs, TabsInfo } from '$lib/common/components/tabs';
-import { HeroBanner, HeroBannerInfo } from '$lib/common/components/hero-banner';
+
+import { CopyrightBanner, CopyrightBannerInfo, SiteNavigation, SiteNavigationInfo } from '../components/footer';
+import { Innovation, InnovationInfo } from '../components/innovation';
 import { Accordion, AccordionInfo } from '$lib/common/components/accordion';
+import { ComingSoon, ComingSoonInfo } from '$lib/common/components/coming-soon';
+import { HeroBanner, HeroBannerInfo } from '$lib/common/components/hero-banner';
+import { TabularAnchor, TabularAnchorInfo } from '$lib/common/components/history-timeline';
 import { SliderVariation, SliderVariationInfo } from '$lib/common/components/slider-variations';
+import { Tabs, TabsInfo } from '$lib/common/components/tabs';
+
 
 /**
  * Create a list of components based on the page model
@@ -41,10 +46,26 @@ function createMainPageComponents(): RegisteredComponent[] {
     {
       component: Accordion,
       ...AccordionInfo
-    }, 
+    },
     {
       component: SliderVariation,
       ...SliderVariationInfo
+    },
+    {
+      component: Innovation,
+      ...InnovationInfo
+    },
+    {
+      component: TabularAnchor,
+      ...TabularAnchorInfo
+    }, 
+    {
+      component: SiteNavigation,
+      ...SiteNavigationInfo
+    },
+    {
+      component: CopyrightBanner,
+      ...CopyrightBannerInfo
     }
   ];
 }
