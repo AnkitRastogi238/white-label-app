@@ -1,6 +1,6 @@
 // external dependencies
 const defaultTheme = require('tailwindcss/defaultTheme');
-const { colors, screens, typography } = require('../../packages/ui/design.cjs');
+const { colors, screens, typography } = require('@white-label/ui/design.cjs');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {

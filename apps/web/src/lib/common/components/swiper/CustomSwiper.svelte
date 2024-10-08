@@ -5,7 +5,7 @@
 	// Import Swiper modules
 	import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 	import type { NavigationOptions, PaginationOptions, SwiperOptions } from 'swiper/types';
-
+	
 	import 'swiper/swiper-bundle.css'; // Import Swiper styles
 	import CustomPagination from './CustomPagination.svelte';
 	// internal dependency

@@ -1,10 +1,10 @@
 <script lang="ts">
 	// external dependencies
 	import * as BuilderSDK from '@builder.io/sdk-svelte';
-
+	
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
-
+	
 	import { page } from '$app/stores';
 	// internal dependencies
 	import type { Tab } from '$lib/common/types';

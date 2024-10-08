@@ -16,13 +16,15 @@
 	},
 	"dependencies": {
 		"@builder.io/sdk-svelte": "^2.0.15",
-		"@repo/ui": "workspace:*",
+		"@white-label/ui": "workspace:*",
 		"svelte-preprocess": "^6.0.3",
-		"swiper": "^11.1.0"
+		"swiper": "^11.1.0",
+		"scroll-into-view-if-needed": "^3.1.0",
+		"aos": "2.3.4"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.42.1",
-		"@repo/eslint-config": "workspace:*",
+		"@white-label/eslint-config": "workspace:*",
 		"@sveltejs/adapter-vercel": "latest",
 		"@sveltejs/kit": "^2.5.2",
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",

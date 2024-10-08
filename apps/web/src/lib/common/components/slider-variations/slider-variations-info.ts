@@ -26,7 +26,6 @@ const SliderVariationInfo: ComponentInfo = {
     {
       name: 'slider',
       type: 'object',
-      showIf: `options.get('layout') === 'SliderWithPagination'`,
       subFields: [...SliderInfo.inputs],
     },
   ],

@@ -2,11 +2,11 @@
 	// external dependencies
 	import { onDestroy, onMount } from 'svelte';
 	import { slide } from 'svelte/transition';
-
-	import { BriefArrow, WhiteDownArrow } from '$src/lib/assets/icons';
+	
 	// internal dependencies
 	import GenericImage from '$lib/common/components/image/GenericImage.svelte';
 	import type { AccordionData } from '$lib/common/types';
+	import { BriefArrow, WhiteDownArrow } from '$src/lib/assets/icons';
 
 	/**
 	 * Represents the data for grid accordian.

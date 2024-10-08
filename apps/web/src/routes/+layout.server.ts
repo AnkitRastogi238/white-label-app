@@ -2,6 +2,8 @@
 import { fetchOneEntry, getBuilderSearchParams } from '@builder.io/sdk-svelte';
 import { type ServerLoadEvent } from '@sveltejs/kit';
 
+import { logger } from '@white-label/ui/services';
+
 // internal dependencies
 import * as constant from '$lib/config/constant';
 
@@ -19,19 +21,30 @@ export async function load(event: ServerLoadEvent) {
         options: getBuilderSearchParams(event.url.searchParams),
         userAttributes: {
             urlPath: path || '/',
-            query: {
-                name: 'Footer Section',
-            },
         },
-
         enrich: true,
     };
+    const navbarAttributes = {
+        apiKey: constant.API_KEY,
+        options: getBuilderSearchParams(event.url.searchParams),
+        enrich: true,
+    }
 
-    const [content] = await Promise.all([
+    const [navBar, footerContent, content] = await Promise.all([
+        fetchOneEntry({
+            model: 'navbar',
+            ...navbarAttributes,
+            cacheSeconds: 300,
+        }).catch((error) => logger.log(error)),
+        fetchOneEntry({
+            model: 'common-section',
+            ...commonAttributes,
+            cacheSeconds: 300,
+        }).catch((error) => logger.log(error)),
         fetchOneEntry({
             model: 'page',
             ...commonAttributes,
-        }).catch((error) => console.log(error)),
+        }).catch((error) => logger.log(error)),
     ]);
-    return { content };
+    return { content, footerContent, navBar };
 }

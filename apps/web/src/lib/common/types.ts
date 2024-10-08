@@ -7,10 +7,10 @@ export interface ILink {
 }
 
 /**
-* Represent the interface for the ImageData
-* src- the src of ImageData
-* alt-  the alt of ImageData
-*/
+ * Represent the interface for the ImageData
+ * src- the src of ImageData
+ * alt-  the alt of ImageData
+ */
 export interface ImageData {
     src: string;
     altText: string;
@@ -112,14 +112,14 @@ export interface CardList {
 }
 
 /**
-* Represent the interface for the cardsData
-* cardTitle-string
-* cardDescription-string
-* cardImage-string
-* cardImageAltText-string
-* cardCTALink-string
-* cardCTAText-string
-*/
+ * Represent the interface for the cardsData
+ * cardTitle-string
+ * cardDescription-string
+ * cardImage-string
+ * cardImageAltText-string
+ * cardCTALink-string
+ * cardCTAText-string
+ */
 export interface ICard {
     title: string;
     description?: string;
@@ -128,4 +128,116 @@ export interface ICard {
     image: Image;
     isLastCard?: boolean;
     link?: ILink;
+}
+
+
+/**
+ * type - The type of the block (e.g., 'text', 'image', 'video').
+ * content - The content of the block. (e.g, 'text', 'image' or any custom component)
+ */
+export interface BuilderBlock {
+    type: string;
+    content: string;
+}
+
+/**
+ * id- number
+ */
+export interface Id {
+    id: number;
+}
+
+/**
+ * Represents a single tab in the timeline.
+ *
+ * title - The title of the timeline tab.
+ * svgIcon - The SVG code representing the icon for the tab.
+ * subTitle - The year or year range for the timeline tab.
+ * image - The URL or path to the image for the timeline tab.
+ * altText - The alt Text for the image.
+ * id - unique id for each section.
+ * textImageAlignment - The alignment of the text and image in the timeline tab.
+ * description - The description text for the timeline tab.
+ * subList - An array of sub-list items for the timeline tab.
+ */
+export interface TabularAnchor {
+    title: string;
+    svgIcon: string; // Assuming svgIcon is a string representing the SVG code
+    subTitle: string;
+    image: string;
+    altText: string;
+    id: string;
+    textImageAlignment: 'imageOnRight-textOnLeft' | 'imageOnLeft-textOnRight';
+    description: string;
+    subList: SubList[];
+}
+
+/**
+ * Represents a sub-list item within a timeline tab.
+ *
+ * title - The title text for the sub-list item.
+ * description - The description text for the sub-list item.
+ */
+export interface SubList {
+    title: string;
+    description: string;
+}
+
+
+/**
+ * Represents a single document in the document list.
+ * docRef - The reference to the document.
+ */
+export interface DocList {
+    docRef: DocRef;
+    name?: string;
+    s3_id?: string;
+    version?: string;
+    isPublic?: boolean
+}
+
+/**
+ * Represents the reference to a document.
+ * id - The unique identifier of the document.
+ * value - The value object containing the document data.
+ */
+export interface DocRef {
+    id: string;
+    value: Value;
+}
+
+/**
+ * Represents the value object containing the document data.
+ * data - The data object containing the document details.
+ * modelId - The unique identifier of the model.
+ * name - The name of the document.
+ * id - The unique identifier of the document.
+ */
+export interface Value {
+    data: DocData;
+    modelId: string;
+    name: string;
+    id: string;
+}
+
+/**
+ * Represents the data object containing the document details.
+ * docType - The type of the document.
+ * docTitle - The title of the document.
+ * docLink - The link to the document.
+ */
+export interface DocData {
+    docType: string;
+    docTitle: string;
+    docLink: string;
+}
+
+/**
+ * Represents a document type and its associated document list.
+ * docType - The type of the document.
+ * documents - The list of documents for the specified document type.
+ */
+export interface DocType {
+    docType: string;
+    documents: DocList[];
 }
