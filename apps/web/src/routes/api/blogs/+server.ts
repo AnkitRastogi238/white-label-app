@@ -4,14 +4,14 @@ import { json } from '@sveltejs/kit';
 import { logger } from '@white-label/ui/services';
 
 import {
-    NEWS_LISTING_API_KEY
-} from '$env/static/private';
+    PUBLIC_NEWS_LISTING_API_KEY
+} from '$env/static/public';
 import { NEWS_API_BASE_URL } from '$lib/config/constant';
 
 export const GET: RequestHandler = async ({ fetch }) => {
 
     // Construct the Salesforce API endpoint with the query parameters
-    const endpoint = `${NEWS_API_BASE_URL}top-headlines?country=us&apiKey=${NEWS_LISTING_API_KEY}`;
+    const endpoint = `${NEWS_API_BASE_URL}top-headlines?country=us&apiKey=${PUBLIC_NEWS_LISTING_API_KEY}`;
 
     const requestOptions = {
         method: 'GET',
