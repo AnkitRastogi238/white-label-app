@@ -9,8 +9,18 @@ export const formatDate = (
     dateString: string | number | Date,
     format: Intl.DateTimeFormatOptions,
     locales: string = 'en-US'
-  ): string => {
+): string => {
     const date = new Date(dateString);
     const formattedDate = date.toLocaleDateString(locales, format);
     return formattedDate.replace(' at ', ' ');
-  };
+};
+
+/**
+* Function to scroll to the top of the given element
+* @param element - The DOM element to scroll
+*/
+export function scrollToTop(element: HTMLElement) {
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+}
