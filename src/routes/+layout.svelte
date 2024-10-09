@@ -1,7 +1,7 @@
 <script lang="ts">
 	// external dependencies
 	import { Content, isPreviewing } from '@builder.io/sdk-svelte';
-	
+
 	import '../styles/app.scss';
 	import { page } from '$app/stores';
 	import * as ComponentFactory from '$lib/common/utils/component-factory';

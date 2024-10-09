@@ -9,6 +9,7 @@ import { HeroBanner, HeroBannerInfo } from '$lib/common/components/hero-banner';
 import { TabularAnchor, TabularAnchorInfo } from '$lib/common/components/history-timeline';
 import { SliderVariation, SliderVariationInfo } from '$lib/common/components/slider-variations';
 import { Tabs, TabsInfo } from '$lib/common/components/tabs';
+import { GenericForm, GenericFormInfo } from '../components/generic-form';
 
 
 /**
@@ -58,7 +59,7 @@ function createMainPageComponents(): RegisteredComponent[] {
     {
       component: TabularAnchor,
       ...TabularAnchorInfo
-    }, 
+    },
     {
       component: SiteNavigation,
       ...SiteNavigationInfo
@@ -66,6 +67,10 @@ function createMainPageComponents(): RegisteredComponent[] {
     {
       component: CopyrightBanner,
       ...CopyrightBannerInfo
+    },
+    {
+      component: GenericForm,
+      ...GenericFormInfo
     }
   ];
 }
