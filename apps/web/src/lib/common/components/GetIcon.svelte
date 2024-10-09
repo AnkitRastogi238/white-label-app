@@ -1,4 +1,4 @@
-<script>
+<script lang='ts'>
     /**
      * SVG component for displaying vector graphics.
      *  classList - Custom class list for the SVG element.

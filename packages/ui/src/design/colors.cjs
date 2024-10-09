@@ -21,7 +21,7 @@ const colors = {
     ng: {
       // TODO: add the colors based on the figma which stick to the design system
       /* Primary Colors */
-      DEFAULT: '#005B8C', //Blue
+      DEFAULT: '#1f2937', //Blue
       primary: '#4E5258', //Grey
       secondary: '#FFD100', //yellow
   
@@ -89,8 +89,8 @@ const colors = {
         50: '#EEF9FF',
         100: '#0087CD',
         200: '#009ECD',
-        300: '#005B8C',
-        400: '#0C5B8C',
+        300: '#1e2937',
+        400: '#1f2937',
         425: '#C6E9FF',
         500: '#B5CFE0',
         600: '#DDE1E6',
