@@ -18,6 +18,18 @@ const HeroBannerInfo: ComponentInfo = {
       required: true,
       helperText: 'Enter the alt text for the image',
     },
+    {
+      name: 'title',
+      type: 'string',
+      required: true,
+      helperText: 'Enter the title',
+    },
+    {
+      name: 'description',
+      type: 'string',
+      required: true,
+      helperText: 'Enter the description',
+    },
   ],
 };
 

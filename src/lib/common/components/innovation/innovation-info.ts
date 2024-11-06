@@ -5,6 +5,9 @@ import type { ComponentInfo } from '@builder.io/sdk-svelte';
 const InnovationInfo: ComponentInfo = {
   name: 'Innovation with Blocks',
   canHaveChildren: true,
+  shouldReceiveBuilderProps: {
+    builderBlock: true,
+  },
   inputs: [
     {
       name: 'title',

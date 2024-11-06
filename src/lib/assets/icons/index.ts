@@ -10,7 +10,9 @@ import DisabledArrow from './disabled-arrow.svg';
 import BlueCloseIcon from './blue-close.svg?raw';
 import CheckedBox from './checked-box.svg?raw';
 import UnCheckedBox from './uncheked-box.svg?raw';
-
+import NotFoudIcon from './not-found-icon.svg?raw';
+import CloseIcon from './close.svg?raw';
+import CartIcon from './cart.svg?raw';
 
 export {
     BriefArrow,
@@ -24,5 +26,8 @@ export {
     DownLightGrayArrow,
     BlueCloseIcon,
     UnCheckedBox,
-    CheckedBox
+    CheckedBox,
+    NotFoudIcon,
+    CloseIcon,
+    CartIcon
 }

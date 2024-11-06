@@ -10,6 +10,8 @@ import { TabularAnchor, TabularAnchorInfo } from '$lib/common/components/history
 import { SliderVariation, SliderVariationInfo } from '$lib/common/components/slider-variations';
 import { Tabs, TabsInfo } from '$lib/common/components/tabs';
 import { GenericForm, GenericFormInfo } from '../components/generic-form';
+import { IconListWithText, IconListWithTextInfo } from '../components/icon-list-with-text';
+import { BannerCardList, BannerCardListInfo } from '../components/banner-card';
 
 
 /**
@@ -71,6 +73,14 @@ function createMainPageComponents(): RegisteredComponent[] {
     {
       component: GenericForm,
       ...GenericFormInfo
+    },
+    {
+      component: IconListWithText,
+      ...IconListWithTextInfo
+    },
+    {
+      component:BannerCardList,
+      ...BannerCardListInfo
     }
   ];
 }

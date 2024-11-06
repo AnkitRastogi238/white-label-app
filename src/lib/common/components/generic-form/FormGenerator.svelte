@@ -9,6 +9,7 @@
 	let selectFieldRefs: { [key: string]: SelectField } = {};
 	let formData: any = {};
 	let errors: any = {};
+	export let submitBtnText: string;
 
 	const dispatch = createEventDispatcher();
 
@@ -112,7 +113,7 @@
 			class="text-base w-fit font-medium font-poppins bg-ng-blue-400 rounded px-5 py-2 flex items-center gap-3 text-white justify-center disabled:text-white disabled:bg-ng-gray-285 disabled:border-none"
 			type="submit"
 		>
-			Submit
+			{submitBtnText}
 		</button>
 		<button
 			class="text-base w-fit font-medium font-poppins border border-ng-blue-400 rounded px-5 py-2 flex items-center gap-3 text-ng-blue-400 justify-center disabled:text-white disabled:bg-ng-gray-285 disabled:border-none"

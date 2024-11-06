@@ -5,6 +5,9 @@ import type { ComponentInfo } from '@builder.io/sdk-svelte';
 const TabsInfo: ComponentInfo = {
   name: 'Tabs',
   canHaveChildren: true,
+  shouldReceiveBuilderProps: {
+    builderBlock: true,
+  },
   inputs: [
     {
       name: 'isTitleRequired',
