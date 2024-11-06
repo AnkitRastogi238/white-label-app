@@ -15,6 +15,12 @@ const SliderVariationInfo: ComponentInfo = {
       defaultValue: 'Heading for carousel',
     },
     {
+      name: 'description',
+      type: 'string',
+      helperText: 'Enter the description',
+      defaultValue: 'Description',
+    },
+    {
       name: 'arrowStyle',
       type: 'enum',
       enum: ['black', 'white'],

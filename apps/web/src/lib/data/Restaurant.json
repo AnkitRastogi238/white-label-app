@@ -1,0 +1,533 @@
+{
+    "restaurants": [
+      {
+        "id": 1,
+        "name": "The Gourmet Kitchen",
+        "category": "Italian",
+        "rating": 3.1,
+        "address": "1234 Elm St, Citytown",
+        "distance_km": 2.5,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Margherita Pizza",
+            "description": "Classic pizza with mozzarella, tomatoes, and basil",
+            "price": 899,
+            "image_url": "https://example.com/images/margherita_pizza.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Pasta Carbonara",
+            "description": "Traditional Italian pasta with creamy sauce and pancetta",
+            "price": 1099,
+            "image_url": "https://example.com/images/pasta_carbonara.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Taco Fiesta",
+        "category": "Mexican",
+        "rating": 2.6,
+        "address": "56 Maple Ave, Citytown",
+        "distance_km": 1.2,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Beef Tacos",
+            "description": "Three soft tacos with seasoned beef, lettuce, and cheese",
+            "price": 699,
+            "image_url": "https://example.com/images/beef_tacos.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Chicken Quesadilla",
+            "description": "Grilled tortilla with chicken, cheese, and pico de gallo",
+            "price": 799,
+            "image_url": "https://example.com/images/chicken_quesadilla.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Sushi World",
+        "category": "Japanese",
+        "rating": 4.8,
+        "address": "789 Pine St, Citytown",
+        "distance_km": 3.0,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Salmon Nigiri",
+            "description": "Sliced salmon over rice, served with soy sauce",
+            "price": 450,
+            "image_url": "https://example.com/images/salmon_nigiri.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "California Roll",
+            "description": "Crab, avocado, and cucumber rolled in seaweed and rice",
+            "price": 550,
+            "image_url": "https://example.com/images/california_roll.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Burger Barn",
+        "category": "American",
+        "rating": 3.6,
+        "address": "101 Cedar Rd, Citytown",
+        "distance_km": 0.8,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Classic Cheeseburger",
+            "description": "Beef patty with cheddar cheese, lettuce, tomato, and onions",
+            "price": 999,
+            "image_url": "https://example.com/images/classic_cheeseburger.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Bacon Double Burger",
+            "description": "Two beef patties with bacon, cheese, and BBQ sauce",
+            "price": 1299,
+            "image_url": "https://example.com/images/bacon_double_burger.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Veggie Delight",
+        "category": "Vegan",
+        "rating": 3.2,
+        "address": "222 Greenway, Citytown",
+        "distance_km": 1.5,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Quinoa Salad",
+            "description": "Fresh greens, quinoa, cherry tomatoes, and avocado",
+            "price": 899,
+            "image_url": "https://example.com/images/quinoa_salad.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Vegan Wrap",
+            "description": "Spinach wrap with hummus, veggies, and a tahini dressing",
+            "price": 799,
+            "image_url": "https://example.com/images/vegan_wrap.jpg"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "BBQ Heaven",
+        "category": "BBQ",
+        "rating": 4.9,
+        "address": "333 Oak Blvd, Citytown",
+        "distance_km": 2.0,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "BBQ Ribs",
+            "description": "Slow-cooked ribs with BBQ sauce, served with coleslaw",
+            "price": 1599,
+            "image_url": "https://example.com/images/bbq_ribs.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Pulled Pork Sandwich",
+            "description": "Pulled pork on a bun with pickles and BBQ sauce",
+            "price": 899,
+            "image_url": "https://example.com/images/pulled_pork_sandwich.jpg"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Spice House",
+        "category": "Indian",
+        "rating": 4.4,
+        "address": "456 Curry Lane, Citytown",
+        "distance_km": 1.8,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Chicken Tikka Masala",
+            "description": "Grilled chicken in a creamy, spiced tomato sauce",
+            "price": 12.99,
+            "image_url": "https://example.com/images/chicken_tikka_masala.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Vegetable Biryani",
+            "description": "Aromatic basmati rice with mixed vegetables and spices",
+            "price": 1050,
+            "image_url": "https://example.com/images/vegetable_biryani.jpg"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Chinatown Express",
+        "category": "Chinese",
+        "rating": 4.3,
+        "address": "789 Bamboo St, Citytown",
+        "distance_km": 2.2,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Kung Pao Chicken",
+            "description": "Spicy chicken stir-fried with peanuts and vegetables",
+            "price": 999,
+            "image_url": "https://example.com/images/kung_pao_chicken.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Vegetable Spring Rolls",
+            "description": "Crispy rolls filled with fresh vegetables",
+            "price": 499,
+            "image_url": "https://example.com/images/vegetable_spring_rolls.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Mediterraneo",
+        "category": "Mediterranean",
+        "rating": 3.4,
+        "address": "234 Olive Dr, Citytown",
+        "distance_km": 1.6,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Falafel Wrap",
+            "description": "Chickpea falafel with hummus, lettuce, and tomatoes in a wrap",
+            "price": 750,
+            "image_url": "https://example.com/images/falafel_wrap.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Greek Salad",
+            "description": "Fresh salad with feta cheese, olives, and cucumbers",
+            "price": 650,
+            "image_url": "https://example.com/images/greek_salad.jpg"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Thai Delight",
+        "category": "Thai",
+        "rating": 3.3,
+        "address": "987 Thai Ave, Citytown",
+        "distance_km": 1.9,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Pad Thai",
+            "description": "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+            "price": 1199,
+            "image_url": "https://example.com/images/pad_thai.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Green Curry",
+            "description": "Spicy green curry with vegetables and your choice of protein",
+            "price": 1099,
+            "image_url": "https://example.com/images/green_curry.jpg"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "French Bistro",
+        "category": "French",
+        "rating": 2.4,
+        "address": "654 Paris St, Citytown",
+        "distance_km": 2.4,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Croque Monsieur",
+            "description": "Toasted ham and cheese sandwich with béchamel sauce",
+            "price": 999,
+            "image_url": "https://example.com/images/croque_monsieur.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "French Onion Soup",
+            "description": "Savory soup with caramelized onions and melted cheese",
+            "price": 799,
+            "image_url": "https://example.com/images/french_onion_soup.jpg"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Kebab King",
+        "category": "Middle Eastern",
+        "rating": 2.2,
+        "address": "321 Spice Blvd, Citytown",
+        "distance_km": 1.4,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Lamb Shawarma",
+            "description": "Marinated lamb served with pita and garlic sauce",
+            "price": 1099,
+            "image_url": "https://example.com/images/lamb_shawarma.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Hummus Plate",
+            "description": "Smooth hummus served with warm pita bread",
+            "price": 550,
+            "image_url": "https://example.com/images/hummus_plate.jpg"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Pizza Palace",
+        "category": "Pizza",
+        "rating": 4.2,
+        "address": "12 Crusty Lane, Citytown",
+        "distance_km": 1.0,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Pepperoni Pizza",
+            "description": "Classic pizza topped with pepperoni and mozzarella",
+            "price": 999,
+            "image_url": "https://example.com/images/pepperoni_pizza.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Veggie Supreme",
+            "description": "Loaded with bell peppers, mushrooms, and olives",
+            "price": 1099,
+            "image_url": "https://example.com/images/veggie_supreme.jpg"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Pho Paradise",
+        "category": "Vietnamese",
+        "rating": 3.5,
+        "address": "56 Basil St, Citytown",
+        "distance_km": 1.7,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Beef Pho",
+            "description": "Rice noodle soup with thinly sliced beef and herbs",
+            "price": 899,
+            "image_url": "https://example.com/images/beef_pho.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Spring Rolls",
+            "description": "Fresh rolls with shrimp, vermicelli, and greens",
+            "price": 599,
+            "image_url": "https://example.com/images/spring_rolls.jpg"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Taste of India",
+        "category": "Indian",
+        "rating": 4.5,
+        "address": "78 Spice St, Citytown",
+        "distance_km": 2.3,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Butter Chicken",
+            "description": "Creamy tomato-based curry with tender chicken",
+            "price": 1299,
+            "image_url": "https://example.com/images/butter_chicken.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Garlic Naan",
+            "description": "Soft, garlic-flavored flatbread",
+            "price": 399,
+            "image_url": "https://example.com/images/garlic_naan.jpg"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Burger Hub",
+        "category": "American",
+        "rating": 4.6,
+        "address": "90 Grill Lane, Citytown",
+        "distance_km": 1.5,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Classic Beef Burger",
+            "description": "Beef patty with cheese, lettuce, tomato, and onions",
+            "price": 1099,
+            "image_url": "https://example.com/images/classic_beef_burger.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Sweet Potato Fries",
+            "description": "Crispy sweet potato fries",
+            "price": 199,
+            "image_url": "https://example.com/images/sweet_potato_fries.jpg"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Sushi Zen",
+        "category": "Japanese",
+        "rating": 2.9,
+        "address": "123 Sashimi St, Citytown",
+        "distance_km": 2.0,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Spicy Tuna Roll",
+            "description": "Spicy tuna with cucumber wrapped in rice and seaweed",
+            "price": 250,
+            "image_url": "https://example.com/images/spicy_tuna_roll.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Miso Soup",
+            "description": "Traditional Japanese soup with tofu and seaweed",
+            "price": 299,
+            "image_url": "https://example.com/images/miso_soup.jpg"
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "Green Garden",
+        "category": "Vegan",
+        "rating": 4.7,
+        "address": "45 Fresh Ave, Citytown",
+        "distance_km": 0.9,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Avocado Toast",
+            "description": "Sourdough toast with smashed avocado, cherry tomatoes, and arugula",
+            "price": 199,
+            "image_url": "https://example.com/images/avocado_toast.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Vegan Smoothie Bowl",
+            "description": "Smoothie bowl with banana, berries, and granola",
+            "price": 250,
+            "image_url": "https://example.com/images/smoothie_bowl.jpg"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Tandoori Flames",
+        "category": "Indian",
+        "rating": 4.9,
+        "address": "77 Tandoor Rd, Citytown",
+        "distance_km": 1.3,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Tandoori Chicken",
+            "description": "Grilled chicken marinated in spices and yogurt",
+            "price": 699,
+            "image_url": "https://example.com/images/tandoori_chicken.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Samosa",
+            "description": "Crispy pastry filled with spiced potatoes and peas",
+            "price": 50,
+            "image_url": "https://example.com/images/samosa.jpg"
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "Bistro Paris",
+        "category": "French",
+        "rating": 4,
+        "address": "22 Eiffel Rd, Citytown",
+        "distance_km": 2.8,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Crepes",
+            "description": "French-style crepes with strawberries and cream",
+            "price": 799,
+            "image_url": "https://example.com/images/crepes.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Beef Bourguignon",
+            "description": "Beef stew in red wine with mushrooms and onions",
+            "price": 1299,
+            "image_url": "https://example.com/images/beef_bourguignon.jpg"
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Dragon Wok",
+        "category": "Chinese",
+        "rating": 2.8,
+        "address": "98 Wok Way, Citytown",
+        "distance_km": 1.2,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "General Tso's Chicken",
+            "description": "Crispy chicken in a sweet and spicy sauce",
+            "price": 550,
+            "image_url": "https://example.com/images/general_tsos_chicken.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Egg Fried Rice",
+            "description": "Fried rice with eggs, peas, and carrots",
+            "price": 299,
+            "image_url": "https://example.com/images/egg_fried_rice.jpg"
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "Korean BBQ House",
+        "category": "Korean",
+        "rating": 4.1,
+        "address": "88 Seoul St, Citytown",
+        "distance_km": 2.5,
+        "menu": [
+          {
+            "item_id": 1,
+            "name": "Bulgogi",
+            "description": "Thinly sliced marinated beef, grilled to perfection",
+            "price": 199,
+            "image_url": "https://example.com/images/bulgogi.jpg"
+          },
+          {
+            "item_id": 2,
+            "name": "Kimchi",
+            "description": "Traditional spicy fermented cabbage",
+            "price": 350,
+            "image_url": "https://example.com/images/kimchi.jpg"
+          }
+        ]
+      }    
+    ]
+  }
+  

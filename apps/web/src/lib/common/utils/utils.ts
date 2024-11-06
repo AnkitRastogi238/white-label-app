@@ -24,3 +24,9 @@ export function scrollToTop(element: HTMLElement) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 }
+
+// Calculate total price
+export function calculateTotal(cartItems:any) {
+    const total = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
+    return total;
+}

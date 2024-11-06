@@ -1,4 +1,4 @@
-<script lang="ts">
+<!-- <script lang="ts">
 	// external dependencies
 
 	import { logger } from '@white-label/ui/services';
@@ -285,4 +285,4 @@
 	</div>
 {/if}
 
-<ValidationPopup bind:isModalOpen={showModal} handleClick={handleShowPrivateDocuments} />
+<ValidationPopup bind:isModalOpen={showModal} handleClick={handleShowPrivateDocuments} /> -->

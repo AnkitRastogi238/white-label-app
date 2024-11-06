@@ -14,6 +14,11 @@
 	export let title: string;
 
 	/**
+	 * The subheading text to display for the regular card slider.
+	 */
+	 export let description: string;
+
+	/**
 	 * The CSS style class for the arrow buttons in the regular card slider.
 	 */
 	export let arrowStyle: string;
@@ -22,7 +27,7 @@
 <div class="min-h-ng43">
 	{#if slider?.cardList?.length > 0}
 		<div>
-			<Slider cardList={slider?.cardList} {arrowStyle} {title} />
+			<Slider cardList={slider?.cardList} {arrowStyle} {title} {description} />
 		</div>
 	{/if}
 </div>
